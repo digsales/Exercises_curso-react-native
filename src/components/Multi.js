@@ -19,5 +19,3 @@ export function Comp2() {
         <Text style={Estilo.fontM}>Comp #02</Text>
     )
 }
-
-// export { Comp1, Comp2 }
