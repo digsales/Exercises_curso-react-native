@@ -1,12 +1,22 @@
 import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import { StyleSheet, Text, View, SafeAreaView } from 'react-native';
+
+import Primeiro from './src/components/Primeiro';
+import CompPadrao, { Comp1, Comp2 } from './src/components/Multi';
 
 export default function App() {
   return (
-    <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
+    <SafeAreaView style={styles.container}>
+
+      <Primeiro />
+
+      <CompPadrao />
+      <Comp1 />
+      <Comp2 />
+      
       <StatusBar style="auto" />
-    </View>
+
+    </SafeAreaView>
   );
 }
 
