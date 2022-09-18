@@ -16,14 +16,21 @@ import { StyleSheet, SafeAreaView } from "react-native";
 // import Familia from "./src/components/relacao/Familia";
 // import Membro from "./src/components/relacao/Membro";
 // import UsuarioLogado from "./src/components/UsuarioLogado";
-import ListaProdutosV2 from "./src/components/produtos/ListaProdutosV2";
+// import ListaProdutosV2 from "./src/components/produtos/ListaProdutosV2";
+// import DigiteSeuNome from "./src/components/DigiteSeuNome";
+// import Quadrado from "./src/components/layout/Quadrado";
+// import FlexboxV1 from "./src/components/layout/FlexboxV1";
+import FlexboxV2 from "./src/components/layout/FlexboxV2";
 
 export default function App() {
   return (
     <SafeAreaView style={styles.container}>
-      <ListaProdutosV2 />
+      <FlexboxV2 />
 
       {/* 
+      <FlexboxV1 />
+      <DigiteSeuNome />
+      <ListaProdutosV2 />
       <UsuarioLogado usuario={{ nome: "Gui", email: "gui@gui.com" }} />
       <Familia>
         <Membro nome="Bia" sobrenome="Arruda" />
@@ -67,5 +74,6 @@ const styles = StyleSheet.create({
     alignItems: "center",
     justifyContent: "center",
     padding: 16,
+    paddingTop: 50,
   },
 });
