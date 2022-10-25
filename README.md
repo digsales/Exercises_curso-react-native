@@ -2,7 +2,7 @@
 
 ### Setting up project
 
-    npx create-expo-app AwesomeProject
+    npx create-expo-app [project name]
     
 ### Initializing app
 
